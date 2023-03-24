@@ -1,0 +1,122 @@
+
+                                      ARENA Simulation Results
+                                     Anand - License: 2957005981
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 3/20/2023
+Analyst: YinChi Chan                                                 Model revision date: 2/23/2023
+
+Replication ended at time      : 168.0 Hours (Monday, January 09, 2023, 00:00:00)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TAT                                         15.297     1.2882     8.3121     24.388       1480    
+Load Decalc Machine.Queue.WaitingTime       .21481     (Insuf)    .00000     .39332         46    
+Batch for Staining H and E.Queue.WaitingTi  .07645     .01963     .00000     1.0000      22360    
+Leave for Processing.Queue.WaitingTime      .02248     (Insuf)    .00000     .20708        141    
+Slice block and affix to slides.Queue.Wait  .13534     .00982     .00000     .50958       2236    
+Analyse and Prepare Report.Queue.WaitingTi  2.8614     .70374     .00000     7.0284       1480    
+Leave for CutUp.Queue.WaitingTime           .01373     (Insuf)    .00000     .20891        129    
+Unload Staining Machine.Queue.WaitingTime   .00000     .00000     .00000     .00000        456    
+Embed Block in Wax.Queue.WaitingTime        .09242     .00516     .00000     .33193       2236    
+Assign Histopathologist.Queue.WaitingTime   .02389     .00190     .00000     .10685       1480    
+Cut Specimen into Blocks.Queue.WaitingTime  1.6755     .37404     .00000     3.7352       1480    
+Collate Blocks of Specimen.Queue.WaitingTi  .23766     .03523     .00000     4.7923       2236    
+Batch for Transport to Staining.Queue.Wait  .16662     .01156     .00000     .50000      22360    
+Slide Check.Queue.WaitingTime               .22075     .03190     .00000     .71149      22360    
+Seize Staining Machine.Queue.WaitingTime    .01809     .00514     .00000     .27561        456    
+Sieze Processing Machine.Queue.WaitingTime  .83750     (Corr)     .00000     2.7588       2236    
+Block Check.Queue.WaitingTime               .22294     (Corr)     .00000     .69718       2236    
+Leave for Staining.Queue.WaitingTime        .02057     (Insuf)    .00000     .34283        256    
+Receive Sample.Queue.WaitingTime             7.1691E-6  1.0885E-5 .00000     .00694       1480    
+Fix Cover Slip.Queue.WaitingTime            .25019     (Corr)     .00000     .78664      22360    
+Leave for Histopath Offices.Queue.WaitingT  .03138     (Insuf)    .00000     .34215        150    
+Batch for Transport to QC.Queue.WaitingTim  .26081     .00618      5.1827E-6 .50000      22360    
+Batch for Transport to Processing.Queue.Wa  .26208     .01298     .00000     .50000       2236    
+Seize Staff by Specimen Priority.Queue.Wai   9.6215E-6  1.6806E-5 .00000     .01030       1480    
+Batch for Transport to Histopath.Queue.Wai  .32532     .02287      2.6525E-5 .50000       1480    
+Seize Decalc Machine.Queue.WaitingTime      .00000     (Insuf)    .00000     .00000         46    
+Load Processing Machine.Queue.WaitingTime   .22806     .02007     .00000     .41526       2236    
+Leave for QC.Queue.WaitingTime              .03874     (Insuf)    .00000     .54410        176    
+Batch for Transport to Embedding.Queue.Wai  .26764     .01151     .00000     .50000       2236    
+Batch for Decalc.Queue.WaitingTime          .71933     (Insuf)     5.1676E-4 1.0000        108    
+Unload Decalc Machine.Queue.WaitingTime     .18168     (Insuf)    .00000     .34763         46    
+Collate Slides of Block.Queue.WaitingTime   .01686      6.7500E-4 .00000     .41380      22360    
+Batch for Transport to Microtomy.Queue.Wai  .26132     .00879     .00000     .50000       2236    
+Leave for Microtomy.Queue.WaitingTime       .01955     (Insuf)    .00000     .26305        175    
+Unload Processing Machine.Queue.WaitingTim  .22045     .02223     .00000     .41565       2236    
+Leave for Embedding.Queue.WaitingTime       .01421     (Insuf)    .00000     .23506        173    
+Load Staining Machine.Queue.WaitingTime     .00000     .00000     .00000     .00000        456    
+Batch for Transport to Cutup.Queue.Waiting  .25599     .01609     .00000     .50000       1480    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Load Decalc Machine.Queue.NumberInQueue     .05882     (Insuf)    .00000     1.0000     .00000    
+Batch for Staining H and E.Queue.NumberInQ  10.174     (Insuf)    .00000     50.000     .00000    
+Leave for Processing.Queue.NumberInQueue    .01886     (Insuf)    .00000     1.0000     .00000    
+Slice block and affix to slides.Queue.Numb  1.8013     .73223     .00000     22.000     .00000    
+Analyse and Prepare Report.Queue.NumberInQ  25.208     11.041     .00000     96.000     .00000    
+Leave for CutUp.Queue.NumberInQueue         .01055     (Insuf)    .00000     1.0000     .00000    
+Unload Staining Machine.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Embed Block in Wax.Queue.NumberInQueue      1.2301     .51669     .00000     15.000     .00000    
+Assign Histopathologist.Queue.NumberInQueu  .21048     .10450     .00000     13.000     .00000    
+Cut Specimen into Blocks.Queue.NumberInQue  14.760     7.9422     .00000     93.000     .00000    
+Collate Blocks of Specimen.Queue.NumberInQ  3.1631     1.4293     .00000     20.000     .00000    
+Batch for Transport to Staining.Queue.Numb  22.175     7.6801     .00000     100.00     .00000    
+Slide Check.Queue.NumberInQueue             29.381     14.326     .00000     264.00     .00000    
+Seize Staining Machine.Queue.NumberInQueue  .04910     (Insuf)    .00000     3.0000     .00000    
+Sieze Processing Machine.Queue.NumberInQue  11.146     7.7146     .00000     83.000     .00000    
+Block Check.Queue.NumberInQueue             2.9672     1.4190     .00000     26.000     .00000    
+Leave for Staining.Queue.NumberInQueue      .03134     (Insuf)    .00000     1.0000     .00000    
+Receive Sample.Queue.NumberInQueue           6.3156E-5 (Insuf)    .00000     1.0000     .00000    
+Fix Cover Slip.Queue.NumberInQueue          33.299     15.152     .00000     239.00     .00000    
+Leave for Histopath Offices.Queue.NumberIn  .02802     (Insuf)    .00000     1.0000     .00000    
+Batch for Transport to QC.Queue.NumberInQu  34.713     13.611     .00000     156.00     .00000    
+Batch for Transport to Processing.Queue.Nu  3.4881     1.6840     .00000     20.000     .00000    
+Seize Staff by Specimen Priority.Queue.Num   8.4761E-5 (Insuf)    .00000     1.0000     .00000    
+Batch for Transport to Histopath.Queue.Num  2.8659     1.2173     .00000     18.000     .00000    
+Seize Decalc Machine.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+Load Processing Machine.Queue.NumberInQueu  3.0353     1.4455     .00000     18.000     .00000    
+Leave for QC.Queue.NumberInQueue            .04058     (Insuf)    .00000     2.0000     .00000    
+Batch for Transport to Embedding.Queue.Num  3.5622     1.3880     .00000     20.000     .00000    
+Batch for Decalc.Queue.NumberInQueue        .46242     (Insuf)    .00000     5.0000     .00000    
+Unload Decalc Machine.Queue.NumberInQueue   .04974     (Insuf)    .00000     2.0000     .00000    
+Collate Slides of Block.Queue.NumberInQueu  2.2445     .97649     .00000     15.000     .00000    
+Batch for Transport to Microtomy.Queue.Num  3.4779     1.2900     .00000     20.000     .00000    
+Leave for Microtomy.Queue.NumberInQueue     .02036     (Insuf)    .00000     1.0000     .00000    
+Unload Processing Machine.Queue.NumberInQu  2.9340     1.3955     .00000     15.000     .00000    
+Leave for Embedding.Queue.NumberInQueue     .01464     (Insuf)    .00000     1.0000     .00000    
+Load Staining Machine.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Batch for Transport to Cutup.Queue.NumberI  2.2551     1.3630     .00000     20.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Counter Blocks                                 2236  Infinite
+Counter Specimens                              1480  Infinite
+Counter Cancer Specimens                        698  Infinite
+Counter NonCancer Specimens                     782  Infinite
+SadSpecimens                                    394  Infinite
+HappySpecimens                                 1086  Infinite
+Specimens Done                                 1480  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+SLA                                         .73378    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.

@@ -1,0 +1,254 @@
+
+                                      ARENA Simulation Results
+                                  YinChi Chan - License: 2957005981
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 3/23/2023
+Analyst: YinChi Chan                                                 Model revision date: 3/23/2023
+
+Replication ended at time      : 168.0 Hours (Wednesday, March 08, 2023, 00:00:00)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TAT                                         64.403     (Corr)     26.568     123.46       1143    
+Load Decalc Machine.Queue.WaitingTime       .58237     .34818     .00000     7.5184       1874    
+Slice block and affix to slides.Queue.Wait  4.3119     (Corr)     .00000     14.619       6761    
+Analyse and Prepare Report.Queue.WaitingTi  1.4979     (Corr)     .00000     5.3389       1153    
+Unload Staining Machine.Queue.WaitingTime   .00454     .00409     .00000     .08098      10596    
+Embed Block in Wax.Queue.WaitingTime        3.3793     (Corr)     .00000     9.0489       9062    
+Assign Histopathologist.Queue.WaitingTime   .03213     (Corr)     .00000     .12552       1156    
+Cut Specimen into Blocks.Queue.WaitingTime  2.2028     .47047     .00000     4.7743       1470    
+Collate Blocks of Specimen.Queue.WaitingTi  .47348     .18198     .00000     25.433       5540    
+Slide Check.Queue.WaitingTime               .74760     (Corr)     .00000     1.9213      10174    
+Seize Staining Machine.Queue.WaitingTime    .00000     .00000     .00000     .00000      10596    
+Batch Blocks.Queue.WaitingTime              .18656     .09003     .00000     26.250       6732    
+Sieze Processing Machine.Queue.WaitingTime  .16718     (Insuf)    .00000     2.3501         98    
+Batch for Delivery.Queue.WaitingTime        .75318     .18833     .00000     18.970       1260    
+Block Check.Queue.WaitingTime               .79419     (Corr)     .01870     2.0460       6227    
+Receive Sample.Queue.WaitingTime             6.0473E-4  4.9945E-4 .00000     .04373       1477    
+Fix Cover Slip.Queue.WaitingTime            .32361     .07229     .00000     1.3842      10510    
+Put 100 in rack.Queue.WaitingTime           .78193     .32658     .00000     11.827       9501    
+Leave for Histopath Offices.Queue.WaitingT  .00000     (Insuf)    .00000     .00000        114    
+Batch for Transport to QC.Queue.WaitingTim  .28744     (Corr)      2.8785E-4 .50000      10325    
+Digital Scan.Queue.WaitingTime              .20868     (Corr)     .00000     .51870      10393    
+Seize 9.Queue.WaitingTime                   .54800     (Insuf)    .00000     5.9081         73    
+Seize Staff by Specimen Priority.Queue.Wai   7.2894E-4 (Corr)     .00000     .07178       1477    
+Batch for Delivery 3.Queue.WaitingTime      1.2396     .73349     .00000     20.081       1280    
+Batch for Delivery 2.Queue.WaitingTime      .84743     .27958     .00000     12.864       1460    
+Batch for Delivery 1.Queue.WaitingTime      .79795     .31485     .00000     15.899       1460    
+Batch for Transport to Histopath.Queue.Wai  .22649     (Corr)     .00000     .50000       1160    
+Hold until end of day.Queue.WaitingTime     14.486     (Insuf)    .23745     26.935         98    
+Load Processing Machine.Queue.WaitingTime   .48691     (Insuf)    .00000     2.0628         98    
+Batch Same Specimen 2.Queue.WaitingTime     31.252     (Corr)     .00000     70.106       6832    
+Batch Same Specimen 1.Queue.WaitingTime     .00000     .00000     .00000     .00000       9587    
+Leave for QC.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000         98    
+Leave for Digital Scanning.Queue.WaitingTi  .00000     (Insuf)    .00000     .00000        100    
+Batch Slides.Queue.WaitingTime              .00000     .00000     .00000     .00000      22668    
+Unload Decalc Machine.Queue.WaitingTime     1.6225     (Corr)     .00000     9.0055       1862    
+Collate Slides of Block.Queue.WaitingTime   1.8958     (Corr)     .00000     4.2157      21454    
+Seize 12.Queue.WaitingTime                  .00000     (Insuf)    .00000     .00000         63    
+Seize 11.Queue.WaitingTime                   5.9597E-4 (Insuf)    .00000     .02174         73    
+Seize 10.Queue.WaitingTime                  1.4338     (Insuf)    .00000     5.5976         64    
+Unload Processing Machine.Queue.WaitingTim  1.4976     (Insuf)    .00000     5.7098         93    
+Batch for Transport to Digital Scanning.Qu  .27947     .01343      1.1903E-5 .50000      10393    
+Load Staining Machine.Queue.WaitingTime     .04946     .01004     .00000     .20274      10596    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Digital Scanning Staff.NumberBusy           1.0340     (Corr)     .00000     5.0000     .00000    
+Digital Scanning Staff.NumberScheduled      5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Digital Scanning Staff.Utilization          .20681     (Corr)     .00000     1.0000     .00000    
+DecalcMachine Type 2.NumberBusy             .00000     (Insuf)    .00000     .00000     .00000    
+DecalcMachine Type 2.NumberScheduled        5.0000     (Insuf)    5.0000     5.0000     5.0000    
+DecalcMachine Type 2.Utilization            .00000     (Insuf)    .00000     .00000     .00000    
+DecalcMachine Type 1.NumberBusy             .00000     (Insuf)    .00000     .00000     .00000    
+DecalcMachine Type 1.NumberScheduled        5.0000     (Insuf)    5.0000     5.0000     5.0000    
+DecalcMachine Type 1.Utilization            .00000     (Insuf)    .00000     .00000     .00000    
+EmbeddingStaff.NumberBusy                   .00000     (Insuf)    .00000     .00000     .00000    
+EmbeddingStaff.NumberScheduled              5.0000     (Insuf)    5.0000     5.0000     5.0000    
+EmbeddingStaff.Utilization                  .00000     (Insuf)    .00000     .00000     .00000    
+Processor Type 2 2.NumberBusy               .85793     (Insuf)    .00000     2.0000     .00000    
+Processor Type 2 2.NumberScheduled          2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Processor Type 2 2.Utilization              .42896     (Insuf)    .00000     1.0000     .00000    
+Processor Type 2 1.NumberBusy               .83898     (Insuf)    .00000     2.0000     .00000    
+Processor Type 2 1.NumberScheduled          2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Processor Type 2 1.Utilization              .41949     (Insuf)    .00000     1.0000     .00000    
+Staining Machine.NumberBusy                 13.836     (Corr)     .00000     486.00     .00000    
+Staining Machine.NumberScheduled            1800.0     (Insuf)    1800.0     1800.0     1800.0    
+Staining Machine.Utilization                .00769     (Corr)     .00000     .27000     .00000    
+BookingInStaff.NumberBusy                   .47048     .30150     .00000     5.0000     .00000    
+BookingInStaff.NumberScheduled              5.0000     (Insuf)    5.0000     5.0000     5.0000    
+BookingInStaff.Utilization                  .09410     .06030     .00000     1.0000     .00000    
+CutUp Staff.NumberBusy                      2.0822     (Insuf)    .00000     5.0000     .00000    
+CutUp Staff.NumberScheduled                 5.0000     (Insuf)    5.0000     5.0000     5.0000    
+CutUp Staff.Utilization                     .41645     (Insuf)    .00000     1.0000     .00000    
+Data Staff.NumberBusy                       .22818     .09156     .00000     5.0000     .00000    
+Data Staff.NumberScheduled                  5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Data Staff.Utilization                      .04564     .01831     .00000     1.0000     .00000    
+QC Staff.NumberBusy                         1.9903     (Insuf)    .00000     5.0000     5.0000    
+QC Staff.NumberScheduled                    5.0000     (Insuf)    5.0000     5.0000     5.0000    
+QC Staff.Utilization                        .39807     (Insuf)    .00000     1.0000     1.0000    
+Processor 4.NumberBusy                      .90200     (Insuf)    .00000     3.0000     1.0000    
+Processor 4.NumberScheduled                 3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Processor 4.Utilization                     .30067     (Insuf)    .00000     1.0000     .33333    
+Processor 5.NumberBusy                      .90960     (Insuf)    .00000     3.0000     1.0000    
+Processor 5.NumberScheduled                 3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Processor 5.Utilization                     .30320     (Insuf)    .00000     1.0000     .33333    
+Processor 6.NumberBusy                      .93163     (Insuf)    .00000     3.0000     1.0000    
+Processor 6.NumberScheduled                 3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Processor 6.Utilization                     .31054     (Insuf)    .00000     1.0000     .33333    
+Processor 1.NumberBusy                      1.1117     (Insuf)    .00000     3.0000     .00000    
+Processor 1.NumberScheduled                 3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Processor 1.Utilization                     .37059     (Insuf)    .00000     1.0000     .00000    
+Processor 2.NumberBusy                      1.0595     (Insuf)    .00000     3.0000     1.0000    
+Processor 2.NumberScheduled                 3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Processor 2.Utilization                     .35318     (Insuf)    .00000     1.0000     .33333    
+Processor 3.NumberBusy                      .92128     (Insuf)    .00000     3.0000     1.0000    
+Processor 3.NumberScheduled                 3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Processor 3.Utilization                     .30709     (Insuf)    .00000     1.0000     .33333    
+Microtomy Staff.NumberBusy                  2.3063     (Insuf)    .00000     5.0000     5.0000    
+Microtomy Staff.NumberScheduled             5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Microtomy Staff.Utilization                 .46128     (Insuf)    .00000     1.0000     1.0000    
+ProcessingStaff.NumberBusy                  2.5064     .66562     .00000     5.0000     .00000    
+ProcessingStaff.NumberScheduled             5.0000     (Insuf)    5.0000     5.0000     5.0000    
+ProcessingStaff.Utilization                 .50128     .13312     .00000     1.0000     .00000    
+Staining Staff.NumberBusy                   .32519     (Corr)     .00000     5.0000     .00000    
+Staining Staff.NumberScheduled              5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Staining Staff.Utilization                  .06504     (Corr)     .00000     1.0000     .00000    
+Coverslip Staff.NumberBusy                  1.0439     (Corr)     .00000     5.0000     5.0000    
+Coverslip Staff.NumberScheduled             5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Coverslip Staff.Utilization                 .20879     (Corr)     .00000     1.0000     1.0000    
+HIstopathologist.NumberBusy                 5.1247     (Corr)     .00000     10.000     10.000    
+HIstopathologist.NumberScheduled            10.000     (Insuf)    10.000     10.000     10.000    
+HIstopathologist.Utilization                .51247     (Corr)     .00000     1.0000     1.0000    
+Load Decalc Machine.Queue.NumberInQueue     6.4962     6.0702     .00000     146.00     .00000    
+Slice block and affix to slides.Queue.Numb  176.35     (Corr)     .00000     1338.0     47.000    
+Analyse and Prepare Report.Queue.NumberInQ  10.288     6.0489     .00000     70.000     3.0000    
+Unload Staining Machine.Queue.NumberInQueu  .28612     .31023     .00000     109.00     .00000    
+Embed Block in Wax.Queue.NumberInQueue      182.28     99.848     .00000     1485.0     .00000    
+Assign Histopathologist.Queue.NumberInQueu  .22111     .10753     .00000     15.000     .00000    
+Cut Specimen into Blocks.Queue.NumberInQue  19.274     9.9060     .00000     116.00     .00000    
+Collate Blocks of Specimen.Queue.NumberInQ  17.835     (Corr)     .00000     103.00     35.000    
+Slide Check.Queue.NumberInQueue             45.399     (Corr)     .00000     375.00     151.00    
+Seize Staining Machine.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Batch Blocks.Queue.NumberInQueue            9.3611     (Corr)     .00000     54.000     24.000    
+Sieze Processing Machine.Queue.NumberInQue  .09752     (Insuf)    .00000     7.0000     .00000    
+Batch for Delivery.Queue.NumberInQueue      5.6591     (Corr)     .00000     20.000     6.0000    
+Block Check.Queue.NumberInQueue             30.397     (Corr)     .00000     248.00     187.00    
+Receive Sample.Queue.NumberInQueue          .00532     (Insuf)    .00000     5.0000     .00000    
+Fix Cover Slip.Queue.NumberInQueue          20.397     (Corr)     .00000     415.00     86.000    
+Put 100 in rack.Queue.NumberInQueue         44.724     (Corr)     .00000     100.00     17.000    
+Leave for Histopath Offices.Queue.NumberIn  .00000     (Insuf)    .00000     .00000     .00000    
+Batch for Transport to QC.Queue.NumberInQu  17.773     (Corr)     .00000     155.00     68.000    
+Digital Scan.Queue.NumberInQueue            12.909     (Corr)     .00000     154.00     .00000    
+Seize 9.Queue.NumberInQueue                 .23812     (Insuf)    .00000     7.0000     .00000    
+Seize Staff by Specimen Priority.Queue.Num  .00641     (Insuf)    .00000     5.0000     .00000    
+Batch for Delivery 3.Queue.NumberInQueue    9.6352     (Corr)     .00000     20.000     3.0000    
+Batch for Delivery 2.Queue.NumberInQueue    9.6620     .24515     .00000     20.000     10.000    
+Batch for Delivery 1.Queue.NumberInQueue    10.519     (Corr)     .00000     20.000     17.000    
+Batch for Transport to Histopath.Queue.Num  1.5683     (Corr)     .00000     20.000     6.0000    
+Hold until end of day.Queue.NumberInQueue   8.4981     (Insuf)    .00000     27.000     1.0000    
+Load Processing Machine.Queue.NumberInQueu  .28403     (Insuf)    .00000     20.000     .00000    
+Batch Same Specimen 2.Queue.NumberInQueue   1646.1     (Corr)     .00000     2861.0     2230.0    
+Batch Same Specimen 1.Queue.NumberInQueue   .00000     (Insuf)    .00000     38.000     .00000    
+Leave for QC.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Leave for Digital Scanning.Queue.NumberInQ  .00000     (Insuf)    .00000     .00000     .00000    
+Batch Slides.Queue.NumberInQueue            .00000     (Insuf)    .00000     10.000     .00000    
+Unload Decalc Machine.Queue.NumberInQueue   17.982     11.611     .00000     144.00     .00000    
+Collate Slides of Block.Queue.NumberInQueu  246.60     (Corr)     .00000     1088.0     633.00    
+Seize 12.Queue.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
+Seize 11.Queue.NumberInQueue                 2.5896E-4 (Insuf)    .00000     1.0000     .00000    
+Seize 10.Queue.NumberInQueue                .54622     (Insuf)    .00000     7.0000     .00000    
+Unload Processing Machine.Queue.NumberInQu  .82908     (Insuf)    .00000     14.000     .00000    
+Batch for Transport to Digital Scanning.Qu  17.416     (Corr)     .00000     154.00     112.00    
+Load Staining Machine.Queue.NumberInQueue   3.1197     (Corr)     .00000     482.00     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Counter Specimens                                 0  Infinite
+Counter Cancer Specimens                          0  Infinite
+Counter NonCancer Specimens                       0  Infinite
+SadSpecimens                                   1143  Infinite
+HappySpecimens                                    0  Infinite
+Specimens Done                                 1143  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+SLA                                         .00000    
+Digital Scanning Staff.NumberSeized         10393.    
+Digital Scanning Staff.ScheduledUtilizatio  .20681    
+DecalcMachine Type 2.NumberSeized           .00000    
+DecalcMachine Type 2.ScheduledUtilization   .00000    
+DecalcMachine Type 1.NumberSeized           .00000    
+DecalcMachine Type 1.ScheduledUtilization   .00000    
+EmbeddingStaff.NumberSeized                 .00000    
+EmbeddingStaff.ScheduledUtilization         .00000    
+Processor Type 2 2.NumberSeized             11.000    
+Processor Type 2 2.ScheduledUtilization     .42896    
+Processor Type 2 1.NumberSeized             11.000    
+Processor Type 2 1.ScheduledUtilization     .41949    
+Staining Machine.NumberSeized               10596.    
+Staining Machine.ScheduledUtilization       .00769    
+BookingInStaff.NumberSeized                 3022.0    
+BookingInStaff.ScheduledUtilization         .09410    
+CutUp Staff.NumberSeized                    1481.0    
+CutUp Staff.ScheduledUtilization            .41645    
+Data Staff.NumberSeized                     1156.0    
+Data Staff.ScheduledUtilization             .04564    
+QC Staff.NumberSeized                       16401.    
+QC Staff.ScheduledUtilization               .39807    
+Processor 4.NumberSeized                    12.000    
+Processor 4.ScheduledUtilization            .30067    
+Processor 5.NumberSeized                    12.000    
+Processor 5.ScheduledUtilization            .30320    
+Processor 6.NumberSeized                    12.000    
+Processor 6.ScheduledUtilization            .31054    
+Processor 1.NumberSeized                    14.000    
+Processor 1.ScheduledUtilization            .37059    
+Processor 2.NumberSeized                    14.000    
+Processor 2.ScheduledUtilization            .35318    
+Processor 3.NumberSeized                    12.000    
+Processor 3.ScheduledUtilization            .30709    
+Microtomy Staff.NumberSeized                6804.0    
+Microtomy Staff.ScheduledUtilization        .46128    
+ProcessingStaff.NumberSeized                13077.    
+ProcessingStaff.ScheduledUtilization        .50128    
+Staining Staff.NumberSeized                 21255.    
+Staining Staff.ScheduledUtilization         .06504    
+Coverslip Staff.NumberSeized                10510.    
+Coverslip Staff.ScheduledUtilization        .20879    
+HIstopathologist.NumberSeized               1153.0    
+HIstopathologist.ScheduledUtilization       .51247    
+
+                                           FREQUENCIES
+
+                                                            --Occurrences--    Standard  Restricted
+Identifier                                 Category         Number  AvgTime    Percent   Percent
+___________________________________________________________________________________________________
+
+CutUpStaffUtilisation                      Transporting     11      .10303        0.67      0.67
+                                           BUSY             13      5.6637       43.83     43.83
+                                           IDLE             7       13.319       55.50     55.50
+
+ReceptionStaffUtilisation                  Transporting     68      .02686        1.09      1.09
+                                           BUSY             438     .09002       23.47     23.47
+                                           IDLE             373     .33979       75.44     75.44
+
+
+
+Simulation run time: 1.03 minutes.
+Simulation run complete.
